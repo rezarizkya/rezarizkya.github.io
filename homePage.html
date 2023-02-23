@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyWebsite</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script.js"></script>
+    
+    
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo-perusahaan.png" alt="Logo Perusahaan">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our Profile</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Messenger Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="slider">
+    <h2>Slider Gambar</h2>
+    <p>Ini adalah contoh slider gambar sederhana.</p>
+    <div class="slides">
+        <img src="gambar1.jpg" alt="Slide 1">
+        <img src="gambar2.jpg" alt="Slide 2">
+        <img src="gambar3.jpg" alt="Slide 3">
+    </div>
+</section>
+    <hr>
+    <section class="testimoni">
+      <h2>Mentor IT</h2>
+      <div class="testimoni-container">
+        <div class="testimoni-item">
+          <img src="pelanggan1.jpg" class="bulat" alt="Pelanggan 1">
+          <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+          <span class="nama-pelanggan">Sandika Galih</span>
+        </div>
+        <div class="testimoni-item">
+          <img src="pelanggan2.jpg" class="bulat" alt="Pelanggan 2">
+          <p>"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+          <span class="nama-pelanggan">Harfi Novian</span>
+        </div>
+        
+      </div>
+    </section>
+    <hr>
+	
+  <main>
+    <div class="container">
+      <div class="content">
+        <h1>Form Belajar</h1>
+        <p>ini website Pertama Latihan pertama saya</p>
+        <br>
+        <form action="#" method="POST">
+          <label for="nama">Nama:</label>
+          <input type="text" id="nama" name="nama" required>
+          
+          <label for="tgl_lahir">Tanggal Lahir:</label>
+          <input type="date" id="tgl_lahir" name="tgl_lahir" required>
+          
+          <label for="jenis_kelamin">Jenis Kelamin:</label>
+          <select id="jenis_kelamin" name="jenis_kelamin" required>
+            <option value="">Pilih jenis kelamin</option>
+            <option value="L">Laki-laki</option>
+            <option value="P">Perempuan</option>
+          </select>
+          
+          <label for="pesan">Pesan:</label>
+          <textarea id="pesan" name="pesan" required></textarea>
+          
+          <input type="submit" value="Submit">
+          <hr>
+        </form>
+        <div id="hasil"></div>
+      </div>
+      
+      <div class="sidebar">
+        
+       <table>
+        <div id="hasil"></div>
+       </table>
+        
+      </div>
+    </div>    
+  </main>
+  <hr>
+  
+  
+  <div id="hasil"></div>
+  <footer>
+    <p>&copy; 2023 Reza Rizkya</p>
+  </footer>  
+  
+</body>
+</html>
+
+
